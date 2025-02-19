@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_258b0778d3b4eb53f363924c48518d79 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_258b0778d3b4eb53f363924c48518d79" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_258b0778d3b4eb53f363924c48518d79 = L.map(
+                "map_258b0778d3b4eb53f363924c48518d79",
+                {
+                    center: [41.015137, 28.97953],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1194535c3b0d512580a6e8f2d3bb969a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1194535c3b0d512580a6e8f2d3bb969a.addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+            var circle_marker_72eb97d415c37cc8c4fbd8649f75ef3e = L.circleMarker(
+                [41.0641479492188, 28.8116455078125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_45a707fa80274c6d4507bf6398b51fe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c6c559cfea3cc97a9f78139b6eab0e4 = $(`<div id="html_7c6c559cfea3cc97a9f78139b6eab0e4" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 60914.0</div>`)[0];
+                popup_45a707fa80274c6d4507bf6398b51fe3.setContent(html_7c6c559cfea3cc97a9f78139b6eab0e4);
+            
+        
+
+        circle_marker_72eb97d415c37cc8c4fbd8649f75ef3e.bindPopup(popup_45a707fa80274c6d4507bf6398b51fe3)
+        ;
+
+        
+    
+    
+            var circle_marker_33888a188f1954bec99ed32d42bd219e = L.circleMarker(
+                [41.0586547851563, 28.8116455078125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_b35d982d9a7468643518739e5be4e09d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd522dcb47bd19228cb16fdd360845c6 = $(`<div id="html_cd522dcb47bd19228cb16fdd360845c6" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 55702.0</div>`)[0];
+                popup_b35d982d9a7468643518739e5be4e09d.setContent(html_cd522dcb47bd19228cb16fdd360845c6);
+            
+        
+
+        circle_marker_33888a188f1954bec99ed32d42bd219e.bindPopup(popup_b35d982d9a7468643518739e5be4e09d)
+        ;
+
+        
+    
+    
+            var circle_marker_681d7bb2984fba245c012cc155060af2 = L.circleMarker(
+                [40.9378051757813, 29.3280029296875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_ccb03a103280925c420e7e87c35a394e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f907d1e580f6d5124e0d885e2c3cd38d = $(`<div id="html_f907d1e580f6d5124e0d885e2c3cd38d" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 53476.0</div>`)[0];
+                popup_ccb03a103280925c420e7e87c35a394e.setContent(html_f907d1e580f6d5124e0d885e2c3cd38d);
+            
+        
+
+        circle_marker_681d7bb2984fba245c012cc155060af2.bindPopup(popup_ccb03a103280925c420e7e87c35a394e)
+        ;
+
+        
+    
+    
+            var circle_marker_913d44d6785a0b7b785a76c8405150e4 = L.circleMarker(
+                [41.2179565429688, 28.8336181640625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_be0c8a2c0d3075a220202d8c955c0910 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dc1ffb95deedf2b2baf05ed4cdd62d3 = $(`<div id="html_5dc1ffb95deedf2b2baf05ed4cdd62d3" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 52847.0</div>`)[0];
+                popup_be0c8a2c0d3075a220202d8c955c0910.setContent(html_5dc1ffb95deedf2b2baf05ed4cdd62d3);
+            
+        
+
+        circle_marker_913d44d6785a0b7b785a76c8405150e4.bindPopup(popup_be0c8a2c0d3075a220202d8c955c0910)
+        ;
+
+        
+    
+    
+            var circle_marker_84491da55d418c15abba7bb585327c5f = L.circleMarker(
+                [40.9982299804688, 29.1192626953125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_5407fcab3c552bf3f1755b6ae69298fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_357577b049d901c3bb9df0403095659a = $(`<div id="html_357577b049d901c3bb9df0403095659a" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 46155.0</div>`)[0];
+                popup_5407fcab3c552bf3f1755b6ae69298fd.setContent(html_357577b049d901c3bb9df0403095659a);
+            
+        
+
+        circle_marker_84491da55d418c15abba7bb585327c5f.bindPopup(popup_5407fcab3c552bf3f1755b6ae69298fd)
+        ;
+
+        
+    
+    
+            var circle_marker_096b0372f69a20f72658fe18d1ac4da5 = L.circleMarker(
+                [40.9432983398438, 29.3170166015625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_a666142deda6e466c2a8c5f6ef32d446 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75729a2a5ba1a79ef2516d3cd6a63e9d = $(`<div id="html_75729a2a5ba1a79ef2516d3cd6a63e9d" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 46104.0</div>`)[0];
+                popup_a666142deda6e466c2a8c5f6ef32d446.setContent(html_75729a2a5ba1a79ef2516d3cd6a63e9d);
+            
+        
+
+        circle_marker_096b0372f69a20f72658fe18d1ac4da5.bindPopup(popup_a666142deda6e466c2a8c5f6ef32d446)
+        ;
+
+        
+    
+    
+            var circle_marker_6ffb260bfaf36057b77fa7500032fafb = L.circleMarker(
+                [40.9927368164063, 29.1522216796875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_83874ed44571889418eb58aad7ebbca6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_674c3a3c54c2ad2f7f7500514b1a8976 = $(`<div id="html_674c3a3c54c2ad2f7f7500514b1a8976" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 45378.0</div>`)[0];
+                popup_83874ed44571889418eb58aad7ebbca6.setContent(html_674c3a3c54c2ad2f7f7500514b1a8976);
+            
+        
+
+        circle_marker_6ffb260bfaf36057b77fa7500032fafb.bindPopup(popup_83874ed44571889418eb58aad7ebbca6)
+        ;
+
+        
+    
+    
+            var circle_marker_a0f76295c28fc69d323191ff812e1123 = L.circleMarker(
+                [40.9323120117188, 29.3389892578125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_979e21ecc62293eb09e2ec669ad585f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91453504b6c8e1d8af230f441f6e2ec9 = $(`<div id="html_91453504b6c8e1d8af230f441f6e2ec9" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 45370.0</div>`)[0];
+                popup_979e21ecc62293eb09e2ec669ad585f3.setContent(html_91453504b6c8e1d8af230f441f6e2ec9);
+            
+        
+
+        circle_marker_a0f76295c28fc69d323191ff812e1123.bindPopup(popup_979e21ecc62293eb09e2ec669ad585f3)
+        ;
+
+        
+    
+    
+            var circle_marker_c67d6dec9e0ecf6bdad1e3acbbd89437 = L.circleMarker(
+                [41.2124633789063, 28.8336181640625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_5da647e0777992ba1766c4863923c54d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95e3887e5212e8ed7cc4575a5c03fd03 = $(`<div id="html_95e3887e5212e8ed7cc4575a5c03fd03" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 45215.0</div>`)[0];
+                popup_5da647e0777992ba1766c4863923c54d.setContent(html_95e3887e5212e8ed7cc4575a5c03fd03);
+            
+        
+
+        circle_marker_c67d6dec9e0ecf6bdad1e3acbbd89437.bindPopup(popup_5da647e0777992ba1766c4863923c54d)
+        ;
+
+        
+    
+    
+            var circle_marker_05bc08fe16d9c492493226e78e26c4f0 = L.circleMarker(
+                [41.0641479492188, 28.8336181640625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_258b0778d3b4eb53f363924c48518d79);
+        
+    
+        var popup_9ca4db4aa96a22d3545681384e6e3cf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f7dbcbad209ca72508dbac2e4d96d58 = $(`<div id="html_3f7dbcbad209ca72508dbac2e4d96d58" style="width: 100.0%; height: 100.0%;">Araç Sayısı: 45167.0</div>`)[0];
+                popup_9ca4db4aa96a22d3545681384e6e3cf5.setContent(html_3f7dbcbad209ca72508dbac2e4d96d58);
+            
+        
+
+        circle_marker_05bc08fe16d9c492493226e78e26c4f0.bindPopup(popup_9ca4db4aa96a22d3545681384e6e3cf5)
+        ;
+
+        
+    
+</script>
+</html>
